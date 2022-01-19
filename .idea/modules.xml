@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring.iml" filepath="$PROJECT_DIR$/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot1/springboot1.iml" filepath="$PROJECT_DIR$/../springboot1/springboot1.iml" />
+      <module fileurl="file://E:/备份代码/springbootDemo1/SpringBootWorkSpace-master/springbootdemo.iml" filepath="E:/备份代码/springbootDemo1/SpringBootWorkSpace-master/springbootdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled01/untitled01.iml" filepath="$PROJECT_DIR$/untitled01/untitled01.iml" />
+      <module fileurl="file://E:/备份代码/springbootDemo1/vueDemo-master/vueDemo-master.iml" filepath="E:/备份代码/springbootDemo1/vueDemo-master/vueDemo-master.iml" />
+    </modules>
+  </component>
+</project>
