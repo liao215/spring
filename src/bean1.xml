@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    &lt;!&ndash;配置User对象创建&ndash;&gt;-->
+<!--    <bean id="user" class="com.ces.spring5.User"></bean>-->
+
+<!--    &lt;!&ndash;set方法注入属性&ndash;&gt;-->
+<!--    <bean id="book" class="com.ces.spring5.Book">-->
+<!--        &lt;!&ndash;使用property完成属性注入-->
+<!--            name：类里面属性名称-->
+<!--            value：向属性注入的值-->
+<!--        &ndash;&gt;-->
+<!--        <property name="bname" value="儒家"></property>-->
+<!--        <property name="bage" value="19"></property>-->
+<!--    </bean>-->
+
+    <!--有参数构造注入属性-->
+    <bean id="orders" class="com.ces.spring5.Orders">
+        <constructor-arg name="cname" value="xiaoming"></constructor-arg>
+        <constructor-arg name="address" value="fujian"></constructor-arg>
+    </bean>
+</beans>
